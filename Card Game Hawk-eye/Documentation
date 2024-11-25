@@ -1,0 +1,23 @@
+Description
+
+I have chosen the software engineering task for my demonstration making a similar variation of the game higher or lower,
+as I thought it was best suited to show my skills which I have done in C++. It includes the random creation of a 52 card
+deck with specific functions as well as functions for printing and shuffling it. 
+
+There is also a nested loop for the game in the main class which implements the rules of the game and gives the user a 
+clear understanding of how to play. One mechanic is the freeze option which allows the player to pass on play while saving
+their current state in hopes of getting a better card. There are extra options to use when running the game, pressing 'p' 
+will print out the current pack in use and 's' will shuffle the current deck in use. These are not intended for player use 
+but can be used for ease of function display.
+
+Improvements
+
+If I had more time I would have included some of the following:
+- an option to add jokers to the pack and have them play as wild cards so the user gets a bonus point
+- a question selector so between turns and when deciding who goes first a question is asked and if the
+player is correct they get to play
+- also if there were questions in the game in the future the game could be broken into categories such 
+as age related, revision topics or general knowledge which the user can chose from at the start 
+- sometimes the game might need to take a few times to run as the function to create the deck could be 
+more optimised
+- a GUI with images of the cards and a welcome page
